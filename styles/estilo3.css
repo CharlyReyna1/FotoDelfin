@@ -2,13 +2,16 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', sans-serif;
-    background: url('imagenes/delfin.jpg') no-repeat center center fixed;
+    background: url('../imagenes/delfin.jpg') no-repeat center center fixed;
     background-size: cover;
     color: white;
     text-align: center;
   }
+  .header {
+    background-color: rgba(0, 203, 255, 0.5);
+    min-height: 15vh;
+  }
   .contenedor {
-    background-color: rgba(0, 0, 0, 0.5);
     padding: 30px;
     min-height: 100vh;
   }
@@ -54,7 +57,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 8vh;
+    min-height: 8vh;
     padding: 20px 0px;
   }
   img.nav-two{
@@ -71,7 +75,7 @@ body {
   }
   
   nav.nav-main ul li a:hover{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
   }
   
   nav.nav-main ul.nav-menu{
@@ -81,4 +85,9 @@ body {
   
   ul{
     list-style: none;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
   }
