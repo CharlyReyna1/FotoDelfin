@@ -55,7 +55,7 @@ body {
     width: 98.9vw;
   }
   .foots{
-    font-size: 2vw;
+    font-size: 3vw;
   }
   nav.nav-main{
     font-size: 17px;
@@ -96,4 +96,5 @@ body {
   a {
     color: white;
     text-decoration: none;
+
   }
